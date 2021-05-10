@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/utilitis.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Estructura y Atributos</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="navbar">
+            <div class="container">
+                <a href="../index.html">
+                    <img class="logo" src="../logo.jpeg" alt="">
+                    <h1>El Teclado de Socrates</h1>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="showcase showcase-1">
+        <div class="container">
+            <h1 class="main-title">Estructura y Atributos HTML</h1>
+        </div>
+    </div>
+
+    <article id="article">
+        <div class="container">
+            <section id="section-a">
+                <h2 class="sub-title">La Importancia de la Estructura</h2>
+                <p>Para empezar en este fascinante mundo del desarrollo web, primero se debe entender la importancia que tiene la estructura. Para empezar, tomemos por ejemplo este bonito artículo el cual está estructurado (bien estructurado quiero pensar), existe un título, que cumple la función de resumir en pocas palabras de lo que se trata el artículo o captar la retención del incauto lector, también existen subtítulos cuya función es darle a conocer al respetable, de qué tema se va a tratar en los siguientes párrafos, los cuales guardan la información la cual el lector buenamente vino a adquirir, ya que los Sapiens somos animales muy visuales, también he adjuntado algunas imágenes para explicar de mejor manera algunos conceptos, o simplemente para que el artículo se vea mejor. Esta estructura ayuda al lector a que pueda tener una buena (la mejor, quiero pensar) experiencia al leer el presente artículo.</p>
+                <p>Daráse cuenta el lector que leer el artículo sin ninguna estructura es, parafraseando los halagos de mi ex a un humilde servidor, difícil, monótono, aburrido, y el lector tendrá toda la razón. Ahora al igual que el ojo humano prefiere la estructura antes que la anarquía (política aparte), los navegadores web hacen otro tanto. Nosotros podríamos desarrollar una página web sin estructura alguna, el inconveniente? Los navegadores (Chrome, Mozilla, Safari, por nombrar algunos) no entenderían muy bien lo que pretendemos, y peor aún los usuarios tampoco, y estos últimos se pueden contrariar y mandarle saludos a nuestra madre.  </p>
+            </section>
+        
+            <section id="section-b">
+                <h2 class="sub-title">Y Qué Tiene Que Ver La Estructura Con La Navidad</h2>
+                <p>Pues, HTML o HyperText Markup Language, (con eso gasté todo el inglés que tenía) o para los que no dominamos muy bien el idioma anglo-sajón, lenguaje de marcado de hipertexto, es el lenguaje que le va a dar estructura a nuestras aplicaciones web, con bonitas etiquetas, le indicará al navegador de turno, cual es el título, subtítulo, párrafo, imagen, etc etc.</p>
+                <p>Ahora ejemplefiquemos, sin conocer la sintaxis de etiquetas quiero escribir una frase de algún personaje famoso en la historia, que sea vista por todos los que navegan por la web (y claro tienen a bien visitar mi sitio), el personaje será Cayo Julio Cesar (aunque no lo crean, Cayo éra su nombre y Julio Cesar sus apellidos) la frase, “Divide y vencerás”, una frase corta que le sirvió de mucho a Cortez para conquistar a los Mexicas, la cual encomendó a Pizarro que este se encaminara hacia los andes. Abro mi editor de texto escribo mi frase, y le doy el formato deseado</p>
+                <img src="../img/post1/code-1.png" alt="">
+                <p>Lo que el navegador muestra: </p>
+                <img src="../img/post1/navegador-1.png" alt="">
+                <p>Qué es lo que estoy haciendo mal Dios mio?</p>
+            </section>
+
+            <section id="section-c">
+                <h2 class="sub-title">Ya pero … etiquetas?</h2>
+                <p>Pues si, HTML consta de diferentes elementos para diferentes usos, un elemento html se forma con una etiqueta de apertura y otra de cierre, el texto que el desarrollador quiera presentar se envuelve en estos elementos, así le damos estructura al contenido. Pero veamos como es una etiqueta</p>
+                <img src="../img/post1/code-2.png" alt="">
+                <p>El elemento párrafo, se utiliza para estructurar párrafos, y su sintaxis consiste en un signo menor que “<” seguido por el nombre del elemento “p”, para terminar con el signo de mayor que “>”, y para cerrar el elemento solo se agrega una barra invertida “/” justo después del signo menor que “<”.</p>
+                <p>Ahora no todos los elementos HTML cuentan con etiquetas de cierre, algunos se cierran solos como el elemento <br>, que sirve para hacer un salto de linea, este elemento no necesita contenido, por lo tanto no necesita una etiqueta de cierre</p>
+                <p>Otro elemento que no necesita un cierre es "hr", el cual sirve para dibujar en el navegador líneas horizontales.</p>
+                <p>Ahora, para hacer que el navegador presente nuestro contenido como nosotros pretendemos que lo muestre, debemos de envolver a este en estos elementos HTML con etiquetas, además voy a agregarlo un par de líneas horizontales para que se vea mejor </p>
+                <img src="../img/post1/code-3.png" alt="">
+                <p>Navegador:</p>
+                <img src="../img/post1/nav-3.png" alt="">
+                <p>Va quedando, pero necesito que el texto “Cayo Julio Cesar” se posicione en el lado derecho.</p>
+            </section>
+
+            <section id="section-d">
+                <h2 class="sub-title">La importancia de los Atributos</h2>
+                <img src="../img/post1/meme-1.jpeg" alt="">
+                <p>Un atributo le dá más información al navegador, como que un link nos lleve a una URL específica, o en nuestro caso, posicionar un elemento a la derecha de la pantalla. Agregar atributos a elementos HTML se hace de la siguiente manera, después del nombre del elemento, “<p” y antes del signo de mayor que “>”, es escribe el nombre del atributo seguido de un signo de igual “=”, se abren comillas y dentro de las comillas se escribe el valor del atributo.</p>
+                <img src="../img/post1/code-4.png" alt="">
+                <p>Navegador:</p>
+                <img src="../img/post1/nav-4.png" alt="">
+            </section>
+
+            <section id="section-e">
+                <h2 class="sub-title">Conclusión</h2>
+                <p>Como hemos podido aprender, la estructura y los elementos HTML son clave para que los navegadores interpreten de manera correcta nuestras indicaciones al presentar un documento a los usuarios, tanto en la escritura de un artículo, como en el desarrollo de aplicaciones web, en los siguientes artículos aprenderemos sobre la funcionalidad de los elementos HTML más importantes, gracias por su atención</p>
+            </section>
+        </div>
+    </article>
+
+    <footer id="footer">
+        <div class="container">
+            <p>El Teclado De Socrates &copy; All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
